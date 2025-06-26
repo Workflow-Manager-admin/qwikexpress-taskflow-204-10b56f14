@@ -1,4 +1,5 @@
 import { component$ } from "@builder.io/qwik";
+import { Link } from "@builder.io/qwik-city";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import NavBar from "../components/NavBar";
 import FeatureCard from "../components/FeatureCard";
@@ -26,9 +27,9 @@ export default component$(() => {
             <p class="hero-subtitle">
               Effortlessly track, visualize, and crush your habits — one step at a time.
             </p>
-            <a href="/tasks" class="cta-btn" aria-label="Get Started with Tasks">
+            <Link href="/tasks" class="cta-btn" aria-label="Get Started with Tasks">
               Get Started
-            </a>
+            </Link>
           </div>
         </section>
 
