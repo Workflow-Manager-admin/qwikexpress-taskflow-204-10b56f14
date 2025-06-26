@@ -1,0 +1,4 @@
+{
+    "command": "npm run dev -- --port <port> --host <host>",
+    "working_directory": "/home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/qwik_frontend_workspace/qwik_frontend"
+}

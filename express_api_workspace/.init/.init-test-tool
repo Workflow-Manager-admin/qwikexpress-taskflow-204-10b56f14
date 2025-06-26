@@ -1,0 +1,4 @@
+{
+    "command": "npm run test",
+    "working_directory": "/home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/express_api_workspace/express_api"
+}
