@@ -16,8 +16,7 @@ export default component$(() => (
           <a href="/" class="nav-link active">Home</a>
         </li>
         <li>
-          {/* Feature anchor scrolls to features section */}
-          <a href="#features" class="nav-link">Features</a>
+          <a href="/features" class="nav-link">Features</a>
         </li>
         <li>
           <a href="/tasks" class="nav-link">Tasks</a>
