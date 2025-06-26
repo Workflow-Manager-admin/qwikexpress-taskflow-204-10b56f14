@@ -1,0 +1,32 @@
+
+> dev
+> vite --mode ssr --port 3000 --host 0.0.0.0
+
+(!) Could not auto-determine entry point from rollupOptions or html files and there are no explicit optimizeDeps.include patterns. Skipping dependency pre-bundling.
+
+  VITE v5.3.5  ready in 1556 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.17.0.2:3000/
+
+  🚧 Please note that development mode is slower than production.
+10:59:24 AM [vite] Pre-transform error: Failed to load url ../components/NavBar (resolved id: ../components/NavBar) in /home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/qwik_frontend_workspace/qwik_frontend/src/routes/index.tsx. Does the file exist?
+10:59:24 AM [vite] Pre-transform error: Failed to load url ../components/FeatureCard (resolved id: ../components/FeatureCard) in /home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/qwik_frontend_workspace/qwik_frontend/src/routes/index.tsx. Does the file exist?
+10:59:24 AM [vite] Pre-transform error: Failed to load url ./index.css (resolved id: ./index.css) in /home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/qwik_frontend_workspace/qwik_frontend/src/routes/index.tsx. Does the file exist?
+10:59:24 AM [vite] Error when evaluating SSR module /home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/qwik_frontend_workspace/qwik_frontend/src/routes/index.tsx:
+|- Error: Failed to load url ../components/NavBar (resolved id: ../components/NavBar) in /home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/qwik_frontend_workspace/qwik_frontend/src/routes/index.tsx. Does the file exist?
+    at loadAndTransform (file:///home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/qwik_frontend_workspace/qwik_frontend/node_modules/vite/dist/node/chunks/dep-mCdpKltl.js:51599:17)
+    at async instantiateModule (file:///home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/qwik_frontend_workspace/qwik_frontend/node_modules/vite/dist/node/chunks/dep-mCdpKltl.js:52551:44)
+
+10:59:24 AM [vite] Internal server error: Failed to load url ../components/NavBar (resolved id: ../components/NavBar) in /home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/qwik_frontend_workspace/qwik_frontend/src/routes/index.tsx. Does the file exist?
+      at loadAndTransform (file:///home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/qwik_frontend_workspace/qwik_frontend/node_modules/vite/dist/node/chunks/dep-mCdpKltl.js:51599:17)
+      at async instantiateModule (file:///home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/qwik_frontend_workspace/qwik_frontend/node_modules/vite/dist/node/chunks/dep-mCdpKltl.js:52551:44)
+10:59:25 AM [vite] Internal server error: Failed to load url ../components/NavBar (resolved id: ../components/NavBar) in /home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/qwik_frontend_workspace/qwik_frontend/src/routes/index.tsx. Does the file exist?
+      at loadAndTransform (file:///home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/qwik_frontend_workspace/qwik_frontend/node_modules/vite/dist/node/chunks/dep-mCdpKltl.js:51599:17)
+      at async instantiateModule (file:///home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/qwik_frontend_workspace/qwik_frontend/node_modules/vite/dist/node/chunks/dep-mCdpKltl.js:52551:44)
+11:00:02 AM [vite] Internal server error: Failed to load url ../components/NavBar (resolved id: ../components/NavBar) in /home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/qwik_frontend_workspace/qwik_frontend/src/routes/index.tsx. Does the file exist?
+      at loadAndTransform (file:///home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/qwik_frontend_workspace/qwik_frontend/node_modules/vite/dist/node/chunks/dep-mCdpKltl.js:51599:17)
+      at async instantiateModule (file:///home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/qwik_frontend_workspace/qwik_frontend/node_modules/vite/dist/node/chunks/dep-mCdpKltl.js:52551:44)
+11:00:03 AM [vite] Internal server error: Failed to load url ../components/NavBar (resolved id: ../components/NavBar) in /home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/qwik_frontend_workspace/qwik_frontend/src/routes/index.tsx. Does the file exist?
+      at loadAndTransform (file:///home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/qwik_frontend_workspace/qwik_frontend/node_modules/vite/dist/node/chunks/dep-mCdpKltl.js:51599:17)
+      at async instantiateModule (file:///home/kavia/workspace/code-generation/qwikexpress-taskflow-204-10b56f14/qwik_frontend_workspace/qwik_frontend/node_modules/vite/dist/node/chunks/dep-mCdpKltl.js:52551:44)

@@ -2,11 +2,12 @@ import { component$, Slot, useStyles$ } from "@builder.io/qwik";
 import { routeLoader$ } from "@builder.io/qwik-city";
 import type { RequestHandler } from "@builder.io/qwik-city";
 
-import Header from "../components/starter/header/header";
 import Footer from "../components/starter/footer/footer";
 
 import styles from "./styles.css?inline";
 import "./taskmanager.css";
+
+// No longer import Header here, as homepage/top-level nav is replaced with NavBar
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   // Control caching for this request for best performance and to reduce hosting costs:
@@ -29,7 +30,7 @@ export default component$(() => {
   useStyles$(styles);
   return (
     <>
-      <Header />
+      {/* No global <Header />; homepage renders its own nav bar as needed */}
       <main>
         <Slot />
       </main>
