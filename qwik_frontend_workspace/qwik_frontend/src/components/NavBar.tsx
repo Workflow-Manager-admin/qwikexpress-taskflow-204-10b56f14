@@ -16,9 +16,6 @@ export default component$(() => (
           <a href="/" class="nav-link active">Home</a>
         </li>
         <li>
-          <a href="/features" class="nav-link">Features</a>
-        </li>
-        <li>
           <a href="/tasks" class="nav-link">Tasks</a>
         </li>
       </ul>
